@@ -196,15 +196,3 @@ Mais legível que concatenação com `+`, e sem precisar de método tipo `String
 
 ---
 
-## Resumo rápido
-
-| Conceito | Java | JavaScript |
-|---|---|---|
-| Tipagem | Estática, forte | Dinâmica |
-| Onde vive uma função | Sempre em classe | Pode ser solta |
-| Comparação de igualdade | `==` compara valor (tipos já batem) | `===` (correto) vs `==` (evitar) |
-| Constante | `final` | `const` |
-| Estrutura de repetição | `for`, `for-each` | `for`, `for...of`, `forEach` |
-| Concatenação de string | `+` ou `String.format` | Template literal `` `${}` `` |
-
-Próximo passo: assincronismo (`Promise`, `async/await`) e `fetch`, pra já ir preparando terreno pra consumir a API do motoboy-management-system em React.
