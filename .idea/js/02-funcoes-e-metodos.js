@@ -1,9 +1,5 @@
-// ============================================
 // 2. FUNÇÕES, CONDICIONAIS, LOOPS E MÉTODOS DE ARRAY
-// Rode com: node 02-funcoes-e-metodos.js
-// ============================================
 
-// --------------------------------------------
 // Condicionais
 // --------------------------------------------
 function classificarValor(valorDiaria) {
@@ -36,9 +32,7 @@ console.log("function:", calcularTotal(150.5, 5));
 console.log("arrow:", calcularTotalArrow(150.5, 5));
 
 
-// --------------------------------------------
 // Loops
-// --------------------------------------------
 const lojas = [
     { nome: "Loja Centro", valorDiaria: 150.5 },
     { nome: "Loja Norte", valorDiaria: 200 },
@@ -58,10 +52,8 @@ for (const loja of lojas) {
 lojas.forEach(loja => console.log(`[forEach] ${loja.nome}`));
 
 
-// --------------------------------------------
+
 // Métodos de array: filter, map, reduce
-// (essenciais pra quando você for manipular listas vindas da API em React)
-// --------------------------------------------
 console.log("\n--- filter / map / reduce ---");
 
 // filter: mantém só os itens que passam na condição
@@ -76,9 +68,3 @@ console.log("Nomes:", nomes);
 const somaTotal = lojas.reduce((acumulador, loja) => acumulador + loja.valorDiaria, 0);
 console.log("Soma das diárias:", somaTotal);
 
-
-// ============================================
-// DESAFIO:
-// Escreva uma função "lojaMaisCara(lojas)" que usa reduce
-// pra retornar o NOME da loja com maior valorDiaria.
-// ============================================
